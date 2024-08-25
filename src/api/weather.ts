@@ -1,7 +1,7 @@
 import { WeatherResponse } from "../types/weather";
 
 const apiKey = import.meta.env.VITE_API_KEY;
-const baseUrl = "http://api.openweathermap.org/data/2.5/weather";
+const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
 export async function getWeather(
   lat: number,

@@ -1,7 +1,7 @@
 import { Location, LocationsResponse } from "../types/location";
 
 const apiKey = import.meta.env.VITE_API_KEY;
-const baseUrl = "http://api.openweathermap.org/geo/1.0/direct";
+const baseUrl = "https://api.openweathermap.org/geo/1.0/direct";
 const limit = 1;
 
 export async function getLocation(query: string): Promise<Location | null> {

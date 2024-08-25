@@ -6,7 +6,7 @@ defineProps<{
 }>();
 
 const getIconUrl = (icon: string) => {
-  return `http://openweathermap.org/img/wn/${icon}.png`;
+  return `https://openweathermap.org/img/wn/${icon}.png`;
 };
 </script>
 

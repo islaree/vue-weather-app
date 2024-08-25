@@ -1,7 +1,7 @@
 # weather app
 
 - CLI: Vite
-- API: OpenWeatherAPI
+- API: [OpenWeatherAPI](https://openweathermap.org/api)
 
 
 ## API Schema
